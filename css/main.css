@@ -1,5 +1,21 @@
-html{
+body {
   background-color: #eee9de;
-  font-family: 'Lato' relular-bold;
+  font-family: 'Lato', sans-serif;
   line-height: 1.5em;
+  margin: 0;
+}
+
+p {
+  line-height: 1.5em;
+  width: 75%;
+}
+
+div  {
+  display: inline-block;
+  max-width: 100%;
+  text-align: center;
+}
+
+a {
+
 }
