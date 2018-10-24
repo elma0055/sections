@@ -6,9 +6,8 @@ body {
 }
 
 img {
-  max-width: 100%;
-  display: inline-block;
-  width: 50em;
+  width: 100%;
+  display: block;
 }
 
 h2 {
@@ -20,24 +19,30 @@ h2 {
 p {
   text-align: center;
   margin: 0 0 1.5rem;
-
+  text-align: left;
 }
 
 div {
   max-width: 25em;
-  text-align: center;
   padding: 1em;
+  vertical-align: middle;
+  display:inline-block;
+  text-align: left;
 }
 
-a {
-text-align: center;
+.btn {
 text-decoration: none;
 background-color: #eee9de;
 padding: .4em .75em .5em;
 border: 3px solid;
-border-color: black;
+border-color: #333;
 border-radius: 4px;
 display: inline-block;
 font-size: 1.125rem;
+color: #666;
+}
 
+section {
+  padding: 2em 0;
+  text-align: center;
 }
