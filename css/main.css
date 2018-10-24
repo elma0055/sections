@@ -2,12 +2,16 @@ body {
   background-color: #eee9de;
   font-family: 'Lato', sans-serif;
   line-height: 1.5em;
-  margin: 0;
 }
 
+h2 {
+  text-align: center;
+  display: inline-block;
+}
 p {
   line-height: 1.5em;
-  width: 75%;
+  width: 25em;
+  text-align: center;
 }
 
 div  {
@@ -17,5 +21,10 @@ div  {
 }
 
 a {
-
+text-align: center;
+width: 50%;
+text-decoration: none;
+background-color: orange;
+padding: 1em;
+border-width: 5em;
 }
